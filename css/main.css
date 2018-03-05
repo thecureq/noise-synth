@@ -1,0 +1,138 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+.head {
+  font-family: "menlobold";
+  font-size: 30px;
+  position: fixed;
+  left: 10px;
+  top: 0px;
+}
+
+#pinkhead {
+  left: 10px;
+  top: 550px;
+  text-align: right;
+  position: relative;
+}
+
+#promo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* min-width: 0vw; */
+  margin: 0 auto;
+  min-height: 100vh;
+  z-index: 999;
+}
+
+#synth {
+  background-image: url(../img/synth.png);
+  background-size: cover;
+  width: 500px;
+  height: 600px;
+  position: fixed;
+  left: 0px;
+  top: 30px;
+  right: 0px;
+  bottom: 0px;
+  margin: 0 auto;
+  z-index: 998;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center;
+  align-content: center; */
+  /* flex-wrap: wrap; */
+  width: 100vw;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.btn {
+  min-height: 120vh;
+  flex: 1 1 auto;
+  margin: 0 auto;
+  padding: 10px;
+  transition: 0.5s;
+  background-size: 200% auto;
+ }
+
+.btn:hover {
+  background-position: right center;
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #ffffff 0%, #FF00FF 51%, #FF00FF 100%);
+}
+
+.btn-2 {
+  background-image: linear-gradient(to left, #ffffff 0%, #FF00FF 51%, #FF00FF 100%);
+}
+
+.btn-3 {
+  background-image: linear-gradient(to right, #ffffff 0%, #9F8F81 51%, #9F8F81 100%);
+}
+.btn-4 {
+  background-image: linear-gradient(to left, #ffffff 0%, #9F8F81 51%, #9F8F81 100%);
+}
+
+.btn-5 {
+  background-image: linear-gradient(to right, #ffffff 0%, #3F51B5 51%, #3F51B5 100%);
+}
+.btn-6 {
+  background-image: linear-gradient(to left, #ffffff 0%, #3F51B5 51%, #3F51B5 100%);
+}
+.btn-7 {
+  background-image: linear-gradient(to right, #ffffff 0%, #CE96FF 51%, #CE96FF 100%);
+}
+.btn-8 {
+  background-image: linear-gradient(to left, #ffffff 0%, #CE96FF 51%, #CE96FF 100%);
+}
+.btn-9 {
+  background-image: linear-gradient(to right, #ffffff 0%, #9B9B9B 51%, #9B9B9B 100%);
+}
+.btn-10 {
+  background-image: linear-gradient(to left, #ffffff 0%, #9B9B9B 51%, #9B9B9B 100%);
+}
+.btn-11 {
+  background-image: linear-gradient(to right, #ffffff 0%, #FF4949 51%, #FF4949 100%);
+}
+.btn-12 {
+  background-image: linear-gradient(to left, #ffffff 0%, #FF4949 51%, #FF4949 100%);
+}
+.btn-13 {
+  background-image: linear-gradient(to right, #ffffff 0%, #B8E986 51%, #B8E986 100%);
+}
+.btn-14 {
+  background-image: linear-gradient(to left, #ffffff 0%, #B8E986 51%, #B8E986 100%);
+}
+.btn-15 {
+  background-image: linear-gradient(to right, #000000 0%, #000000 51%, #000000 100%);
+}
+.btn-16 {
+  background-image: linear-gradient(to left, #000000 0%, #000000 51%, #000000 100%);
+}
+
+
+/* .btn-3 {
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+} */
+
+/*
+.btn-4 {
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+}
+
+.btn-5 {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
+}
+
+*/
